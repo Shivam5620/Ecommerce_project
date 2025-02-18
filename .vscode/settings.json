@@ -1,0 +1,16 @@
+{
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ],
+  "cSpell.words": [
+    "WAREHOUSEMANAGER",
+    "BILTY"
+  ],
+  "tailwindCSS.classAttributes": ["class", "className", "theme"],
+  "tailwindCSS.experimental.classRegex": [
+    ["twMerge\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+    ["createTheme\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
+  ]
+}

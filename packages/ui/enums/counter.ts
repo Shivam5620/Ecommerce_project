@@ -1,0 +1,9 @@
+export enum CounterType {
+  "BATCH" = "BATCH",
+  "ORDER" = "ORDER",
+  "DISPATCH" = "DISPATCH",
+  "PACKAGE" = "PACKAGE",
+  "SHIPMENT" = "SHIPMENT",
+  "LOADING" = "LOADING",
+  "ORDER_LOADING" = "ORDER_LOADING",
+}

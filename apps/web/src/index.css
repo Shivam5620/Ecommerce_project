@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+@media screen and (max-width:500px) {
+    .mobile-gap-circle{
+        gap: 105px !important;
+    }
+    .responsive-h-w{
+        width: 90px;
+        height: 90px;
+    }
+    .circle-logo-mobile{
+        width: 60px;
+        height: 36px;
+    }
+    .my-cart-position{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    }
+    .my-cart-circle{
+        height: 30px;
+        width: 30px;
+    }
+    .my-cart-circle img{
+        width: 15px;
+    }
+    .my-cart-text{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1180px) {
+    .mobile-gap-circle{
+        gap: 8rem !important;
+    }
+    .grid-column-laptop{
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    }
+    }
+
+
+
+    @media screen and (min-width:500px) and (max-width:1024px) {
+        .quantity-btn-end{
+            display: flex;
+            justify-content: end;
+        }
+        .quantity-btn-left{
+            display: flex;
+            justify-content: left;
+        }
+    }

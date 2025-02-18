@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-circle-liner {
+  background: radial-gradient(
+    105.2% 105.2% at 38.5% 27.89%,
+    #ffffff 0%,
+    #e6e6e6 100%
+  );
+}
+.shadow-box {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
